@@ -1,0 +1,29 @@
+{
+  "name": "devialet-dialog-lg-webos-volume-sync",
+  "version": "0.0.1",
+  "description": "Subscribes to LG WebOS volume changes and syncs them to the Devialet Dialog to control volume",
+  "main": "sync.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/efenex/devialet-dialog-lg-webos-volume-sync.git"
+  },
+  "keywords": [
+    "devialet",
+    "phantom",
+    "lg",
+    "webos",
+    "volume"
+  ],
+  "author": "efenex",
+  "bugs": {
+    "url": "https://github.com/efenex/devialet-dialog-lg-webos-volume-sync/issues"
+  },
+  "homepage": "https://github.com/efenex/devialet-dialog-lg-webos-volume-sync#readme",
+  "dependencies": {
+    "console-stamp": "^0.2.9",
+    "lgtv2": "^1.4.1",
+    "node-ssdp": "^4.0.0",
+    "node-upnp-remote": "^1.1.0",
+    "yargs": "^15.1.0"
+  }
+}
